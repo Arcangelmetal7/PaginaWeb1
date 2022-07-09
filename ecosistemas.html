@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ecosistemas</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="styles/style2.css">
+</head>
+<body>
+	<header>
+		<h1>ECOSISTEMAS</h1>
+		<p>Diferentes mundos en un mundo</p>
+	</header>
+	<nav>
+		<ul>
+			<li><a href="reinos.html"> REINOS</a></li>
+			<li><a href="ecosistemas.html">ECOSISTEMAS</a></li>
+			<li><a href="biologiacelular.html">BIOLOGIA CELULAR</a></li>
+			<li><a href="adn.html">ADN</a></li>
+			<li id="volver"><a href="index.html">Inicio</a></li>
+		</ul>
+	</nav>
+	<section>
+		<img src="img/Desert.jpg">
+		<img src="img/Lighthouse.jpg">
+		<p><a href="index.html">Volver al inicio</a></p>
+	</section>
+	<aside>
+		<ul>
+			<li>El mundo</li>
+			<li>Otras páginas</li>
+			<li>Contactenos</li>
+			<li>Bibliografía</li>
+			<br>
+			<label for="buscador">Buscar</label>
+			<input id="buscador" type="text" placeholder="busca aqui" name="buscar"/>
+			<input id="botonBuscar" type="submit" name="enviar" value="buscar en página">
+		</ul>
+	</aside>
+		<div class="clearfix"></div>
+	<footer>
+		<p>Copyright 2022 Adrián Calderón</p>
+	</footer>
+	<script type="text/javascript">
+		var boton=document.getElementById("botonBuscar");
+		boton.style.height="40px";
+		boton.style.widht="100%";
+		boton.style.color="black";
+		boton.style.background="rgba(16,56,248,.5)";
+		var texto=document.getElementById("buscador");
+		if (texto>=500) {
+			alert("Feicidades!!")
+		}
+	</script>
+
+</body>
+</html>

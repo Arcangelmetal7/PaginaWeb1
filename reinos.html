@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>reinos</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="styles/style2.css">
+	<script type="text/javascript">
+		var nombre= prompt("dime tu nombre");
+		var edad= prompt("dime tu edad");
+		var distancia= prompt("cuantos metros recorriste?");
+		var tiempo= prompt("cuantos segundos tardaste?");
+		var velocidad=(distancia / tiempo);
+		alert("Tu velocidad fue " + velocidad +"km/s "+ "felicidades");
+		var fisica=["cinematica","dinamica","elctromagnetismo","electrostatica","geometria de la luz","acustica","termodinamica","entropia"]
+	</script>
+</head>
+<body>
+	<header>
+		<h1>REINOS</h1>
+		<script>
+			document.write("<p><i>");
+			document.write(nombre +" tu velocidad fue <strong>"+velocidad+"</strong> m/s felicidades!"+"<br/>");
+			document.write(fisica[2]);
+			document.write("</i></p>");
+		if (velocidad>=10) {
+			alert("Felicidades!!")
+		}
+		else{
+			alert("Lo intentaste")
+		}
+		</script>
+	</header>
+	<nav>
+		<ul>
+			<li><a href="reinos.html"> REINOS</a></li>
+			<li><a href="ecosistemas.html">ECOSISTEMAS</a></li>
+			<li><a href="biologiacelular.html">BIOLOGIA CELULAR</a></li>
+			<li><a href="adn.html">ADN</a></li>
+			<li id="volver"><a href="index.html">Inicio</a></li>
+		</ul>
+	</nav>
+	<section>
+		
+		<video src="video/castlevania.3GP" controls>
+			
+		</video>
+	</section>
+	<aside>
+		<ul>
+			<li>El mundo</li>
+			<li>Otras páginas</li>
+			<li>Contactenos</li>
+			<li>Bibliografía</li>
+			<br>
+			<input type="text" name="buscar"/>
+			<input type="submit" name="enviar" value="buscar en página">
+		</ul>
+	</aside>
+		<div class="clearfix"></div>
+	<footer>
+		<p>Copyright 2022 Adrián Calderón</p>
+	</footer>
+
+</body>
+</html>

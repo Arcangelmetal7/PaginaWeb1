@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Adn/calculadora</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="styles/style3.css">
+</head>
+<body>
+	<header>
+		<h1>ADN (Ácido desoxirribonucleico)</h1>
+	</header>
+	<nav>
+		<ul>
+			<li><a href="reinos.html"> REINOS</a></li>
+			<li><a href="ecosistemas.html">ECOSISTEMAS</a></li>
+			<li><a href="biologiacelular.html">BIOLOGIA CELULAR</a></li>
+			<li><a href="adn.html">ADN</a></li>
+			<li id="volver"><a href="index.html">Inicio</a></li>
+		</ul>
+	</nav>
+	<div id="app">
+		<form name="calculadora">
+
+			<input type="textfield" name="respuesta" value="" autocomplete="off" readonly="">
+
+			<input type="button" name="" value="7" onclick="document.calculadora.respuesta.value+='7'">
+			<input type="button" name="" value="8" onclick="document.calculadora.respuesta.value+='8'">
+			<input type="button" name="" value="9" onclick="document.calculadora.respuesta.value+='9'">
+			<input type="button" name="" value="+" onclick="document.calculadora.respuesta.value+='+'">
+			<br>
+
+			<input type="button" name="" value="4" onclick="document.calculadora.respuesta.value+='4'">
+			<input type="button" name="" value="5" onclick="document.calculadora.respuesta.value+='5'">
+			<input type="button" name="" value="6" onclick="document.calculadora.respuesta.value+='6'">
+			<input type="button" name="" value="-" onclick="document.calculadora.respuesta.value+='-'">
+			<br>
+
+			<input type="button" name="" value="1" onclick="document.calculadora.respuesta.value+='1'">
+			<input type="button" name="" value="2" onclick="document.calculadora.respuesta.value+='2'">
+			<input type="button" name="" value="3" onclick="document.calculadora.respuesta.value+='3'">
+			<input type="button" name="" value="x" onclick="document.calculadora.respuesta.value+='*'">
+			<br>
+
+			<input type="button" name="" value="0" onclick="document.calculadora.respuesta.value+='0'">
+			<input type="reset" name="" value="C">
+			<input type="button" name="" value="=" onclick="document.calculadora.respuesta.value=eval(document.calculadora.respuesta.value)">
+			<input type="button" name="" value="/" onclick="document.calculadora.respuesta.value+='/'">
+			<br>
+			<h2>CALCULADORA 1.0<br>Adrián Calderón 2022</h2>
+			
+
+
+
+		</form>
+	</div>
+
+</body>
+</html>
